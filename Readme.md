@@ -1,9 +1,9 @@
-# Analysis of Indonesian Wikipedia's Flow board: [Wikipedia:Warung Kopi (Bantuan)](https://id.wikipedia.org/wiki/Wikipedia:Warung_Kopi_(Bantuan))
+# Analysis of Indonesian Wikipedia's Flow board
 
 - Analysis of questions asked on [id:Wikipedia:Warung Kopi (Bantuan)](https://id.wikipedia.org/wiki/Wikipedia:Warung_Kopi_(Bantuan)).
 - Dataset timestamp spans from board creation on 1 May 2016 up to 19 Nov 2016, containing 264 rows.
-- Target: manually label dataset and report summary of the data.
-- Classes:
+- Objective: manually label dataset and report summary of the data.
+- Labels:
   - General: General questions, knowledge-related question
   - Editing: Question on how to edit Wikipedia
   - Image: Question on how to upload images
@@ -21,12 +21,13 @@
   - Results: `flow_combined.json` (plus `flow_combined.csv`, converted via https://json-csv.com/)
 - Label the dataset
   - Available at `flow_combined_labelled.csv`
-- Make summary
+- Make summary & draw conclusions
 
 ## Results and Discussions
 ![Count of labels](labels.png)
 
 From the label count, questions on the Flow board are on the topics of:
+
 1. Editing: This is probably due to the high barrier on editing, where newly registered users do not know how to edit Wikipedia. This might be due to tutorial pages not being effective enough to attract attention of newly registered user or they simply do not bother to read the tutorials. Since mobile user access is rising, this might also be even more true as editing on mobile is a really bad experience as users were presented with raw wikitext with no hint at all.
 2. Other: mostly greetings or unrelated statements. Probably due to this page being viewed as a forum.
 3. Review: mostly request for page review (due to FlaggedRevs) or protest on why article is deleted. For the latter, this shows that users do not read the local policy of allowed articles before creating article.
