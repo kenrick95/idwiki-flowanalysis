@@ -35,7 +35,7 @@ From the label count, questions on the Flow board are on the topics of:
 6. Account: how to rename username, how to register (some even ask this after registering), etc. Maybe due to "Register/Log in" button being barely visible at top-right of desktop site's page.
 7. Error: Reporting of error in article text. Not sure why they don't just directly edit the page.
 
-During labelling, it is found that there was also a lot of mention about how to create profile (keyword spotting: 27 times occurence) or biography (keyword spotting: 12 times occurence), in which it was labelled as "editing". This might be due to registered users' motivation being creating article about themselves in Wikipedia, which was now allowed under local policy.
+During labelling, it is found that there was also a lot of mention about how to create profile (keyword spotting: 27 times occurrence) or biography (keyword spotting: 12 times occurrence), in which it was labelled as "editing". This might be due to registered users' motivation being creating article about themselves in Wikipedia, which was now allowed under local policy.
 
 ## Conclusion and Future Work
 
